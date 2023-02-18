@@ -1,0 +1,7 @@
+error: proc-macro derive panicked
+ --> tests/ui/entity_no_struct.rs:3:10
+  |
+3 | #[derive(Entity)]
+  |          ^^^^^^
+  |
+  = help: message: #[derive(Entity)] can only be used on structs

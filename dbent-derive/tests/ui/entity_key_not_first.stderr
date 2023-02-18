@@ -1,0 +1,5 @@
+error: #[derive(Entity)] needs the first field to be a Key; aliasing the Key to something else breaks the macro
+ --> tests/ui/entity_key_not_first.rs:5:5
+  |
+5 |     data: String,
+  |     ^^^^

@@ -1,0 +1,25 @@
+[package]
+name = "dbent"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hilton Medeiros"]
+description = "Database entities types"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+thiserror = "1"
+rusqlite = {version = "0.28", optional = true }
+serde = { version = "1", features = ["derive"], optional = true }
+dbent-derive = { version = "=0.1.0", path = "dbent-derive", optional = true }
+
+[features]
+default = ["serde", "derive"]
+# Provide derive(Entity, Label) macros.
+derive = ["dbent-derive"]
+
+[workspace]
+members = [".", "dbent-derive"]
+
+[package.metadata.docs.rs]
+all-features = true

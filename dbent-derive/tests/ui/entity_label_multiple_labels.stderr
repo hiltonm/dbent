@@ -1,0 +1,10 @@
+error: #[derive(Label)] needs to have 1 field marked with #[label]
+ --> tests/ui/entity_label_multiple_labels.rs:4:13
+  |
+4 |   struct Test {
+  |  _____________^
+5 | |     id: Key<Int>,
+6 | |     #[label] data1: String,
+7 | |     #[label] data2: String,
+8 | | }
+  | |_^

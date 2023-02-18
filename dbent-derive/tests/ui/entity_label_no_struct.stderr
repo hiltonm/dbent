@@ -1,0 +1,7 @@
+error: proc-macro derive panicked
+ --> tests/ui/entity_label_no_struct.rs:3:10
+  |
+3 | #[derive(Label)]
+  |          ^^^^^
+  |
+  = help: message: #[derive(Label)] can only be used on structs

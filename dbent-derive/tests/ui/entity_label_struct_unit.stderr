@@ -1,0 +1,5 @@
+error: #[derive(Label)] can only be used on structs with named fields
+ --> tests/ui/entity_label_struct_unit.rs:4:12
+  |
+4 | struct Test();
+  |            ^^

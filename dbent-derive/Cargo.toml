@@ -1,0 +1,20 @@
+[package]
+name = "dbent-derive"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hilton Medeiros"]
+description = "Dbent procedural macros"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1", features = ["extra-traits"] }
+quote = { version = "1", default-features = false }
+proc-macro2 = { version = "1", default-features = false }
+
+[dev-dependencies]
+trybuild = "1"
+dbent = { version = "0.1.0", path = ".." }

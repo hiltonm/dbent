@@ -1,0 +1,5 @@
+error: #[derive(Entity)] needs the first field to be a Key; aliasing the Key to something else breaks the macro
+ --> tests/ui/entity_no_key.rs:5:5
+  |
+5 |     id: Option<usize>,
+  |     ^^

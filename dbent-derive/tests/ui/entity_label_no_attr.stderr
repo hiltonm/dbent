@@ -1,0 +1,9 @@
+error: #[derive(Label)] needs to have 1 field marked with #[label]
+ --> tests/ui/entity_label_no_attr.rs:4:13
+  |
+4 |   struct Test {
+  |  _____________^
+5 | |     id: Key<Int>,
+6 | |     data: String,
+7 | | }
+  | |_^
