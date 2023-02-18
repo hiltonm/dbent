@@ -24,6 +24,12 @@ The following features are supported:
 - `rusqlite`: for `rusqlite` ToSql and FromSql implementations for the Key type
 - `derive`: for the derive macros `Entity` and `Label`
 
+## Example
+
+This was used for the [world-tables](https://github.com/hiltonm/world-tables)
+app in the
+[world-tables-base](https://github.com/hiltonm/world-tables/blob/master/world-tables-base/src/lib.rs).
+
 ## License
 
 Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or
