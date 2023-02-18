@@ -1,11 +1,11 @@
 [package]
 name = "dbent-derive"
 version = "0.1.0"
-edition = "2021"
 authors = ["Hilton Medeiros"]
+edition = "2021"
 description = "Dbent procedural macros"
+repository = "https://github.com/hiltonm/dbent"
 license = "MIT OR Apache-2.0"
-readme = "README.md"
 
 [lib]
 proc-macro = true
