@@ -17,4 +17,4 @@ proc-macro2 = { version = "1", default-features = false }
 
 [dev-dependencies]
 trybuild = "1"
-dbent = { version = "0.1.0", path = ".." }
+dbent = { path = ".." }
