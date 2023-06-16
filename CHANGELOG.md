@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased] - ReleaseDate
 
+## [0.1.1] - 2023-06-16
+
 ### Changed
 
 - Update rusqlite to 0.29
@@ -19,4 +21,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial commit
 
 <!-- next-url -->
-[Unreleased]: https://github.com/hiltonm/dbent/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/hiltonm/dbent/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/hiltonm/dbent/compare/v0.1.0...v0.1.1

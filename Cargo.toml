@@ -1,6 +1,6 @@
 [package]
 name = "dbent"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Hilton Medeiros"]
 edition = "2021"
 description = "Database entities types"
