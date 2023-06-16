@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased] - ReleaseDate
 
+### Changed
+
+- Update rusqlite to 0.29
+
 ## 0.1.0 - 2023-02-18
 
 ### Added
